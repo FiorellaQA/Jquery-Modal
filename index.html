@@ -5,16 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="assets/css/main.css" rel="stylesheet">
-    <title>Modal con Jquery </title>
-    <!-- HTML5 Shim and Respond.js Agrega soporte para elementos HTML5 y media quieries en IE8 -->
-    <!-- ADVERTENCIA: Respond.js no soporta que ejecutes tu código via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <title>Modal con Jquery</title>
   </head>
   <body>
-    <script src="assets/vendor/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+
+    <div class="container">
+      <a id="openModal-js" href="#">
+        <img src="https://script.i-parcel.com/images/flags/48/us.png"/>
+      </a>
+    </div>
+
+    <div class="bodyModal">
+      <a href="#" class="closeModal" id="closeModal-js">&times;</a>
+      <h3>Welcome! It appears to us you are shopping from United States.  We have conveniently set your currency to
+        United States Dollars.</h3>
+      <div class="medios-pago">
+        <img src="https://script.i-parcel.com/images/creditcards/visa.png"/>
+        <img src="https://script.i-parcel.com/images/creditcards/amex.png"/>
+        <img src="https://script.i-parcel.com/images/creditcards/mastercard.png"/>
+      </div>
+    </div>
+
+    <script src="assets/js/jquery-3.2.1.min.js" type="text/javascript"></script>
     <script src="assets/js/app.js" type="text/javascript"></script>
   </body>
 </html>
